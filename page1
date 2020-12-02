@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BREGEAL</title>
+<style>table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}</style>
+</head>
+<body>
+<h2 style="color:Tomato;">Dr. Binnaz Ege-Dr. Rıdvan Ege Anadolu Lisesi</h2>
+<p>Dr.Binnaz Ege-Dr.Rıdvan Ege Anadolu Lisesi fizik,kimya ve bilgisayar laboratuvarları, fasketbol ve futbol sahası içeren kapalı spor salonu, konferans salonu, yemekhane ve her zaman çaışmaya açık bir kütüphaneyle yıllardır Ankara'nın en başarılı okulları arasında yer alıyor. Birinci yabancı dil olan İngilizce'nin yanında ikinci yabancı dil olarak da Almanca eğitimi verilmektedir. Okul Oğuzlar Mah. Osmanlı Cad. 1396. Sok. Balgat adresinde bulunmaktadır.</p>
+<div align="center"><h3 style="color:darkblue;">DERS ZAMAN ÇİZELGESİ</h3></div>
+ <table style="width:100%">
+  <tr>
+    <th>DERSLER</th>
+    <th>BAŞLANGIÇ SAATİ</th>
+    <th>BİTİŞ SAATİ</th>
+  </tr>
+  <tr>
+    <td>DERSE HAZIRLIK</td>
+    <td>9:00</td>
+    <td>9:10</td>
+  </tr>
+  <tr>
+    <td>1.DERS</td>
+    <td>9.10</td>
+    <td>9.50</td>
+  </tr>
+   <tr>
+    <td>TENEFFÜS</td>
+    <td>9.50</td>
+    <td>10.00</td>
+  </tr>
+   <tr>
+    <td>2.DERS</td>
+    <td>10.00</td>
+    <td>10.40</td>
+  </tr>
+   <tr>
+    <td>TENEFFÜS</td>
+    <td>10.40</td>
+    <td>10.50</td>
+  </tr>
+  <tr>
+    <td>3.DERS</td>
+    <td>10.50</td>
+    <td>11.30</td>
+  </tr>
+  <tr>
+    <td>TENEFFÜS</td>
+    <td>11.30</td>
+    <td>11.40</td>
+  </tr>
+  <tr>
+    <td>4.DERS</td>
+    <td>11.40</td>
+    <td>12.20</td>
+  </tr>
+  <tr>
+    <td>ÖĞLE ARASI</td>
+    <td>12.20</td>
+    <td>13.05</td>
+  </tr>
+  <tr>
+    <td>5.DERS</td>
+    <td>13.05</td>
+    <td>13.40</td>
+  </tr>
+  <tr>
+    <td>TENEFFÜS</td>
+    <td>13.40</td>
+    <td>13.50</td>
+  </tr>
+  <tr>
+    <td>6.DERS</td>
+    <td>13.50</td>
+    <td>14.30</td>
+  </tr><tr>
+    <td>TENEFFÜS</td>
+    <td>14.30</td>
+    <td>14.40</td>
+  </tr><tr>
+    <td>7.DERS</td>
+    <td>14.40</td>
+    <td>15.20</td>
+  </tr><tr>
+    <td>TENEFFÜS</td>
+    <td>15.20</td>
+    <td>15.30</td>
+  </tr>
+  <tr>
+    <td>8.DERS</td>
+    <td>15.30</td>
+    <td>16.10</td>
+  </tr><tr>
+    <td>TENEFFÜS</td>
+    <td>16.10</td>
+    <td>16.20</td>
+  </tr><tr>
+    <td>9.DERS</td>
+    <td>16.20</td>
+    <td>17.00</td>
+  </tr>
+</table> 
+
+</body>
+</html> 

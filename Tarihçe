@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BREGEAL</title>
+<style>table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}</style>
+</head>
+<body>	 
+<h1>Tarihçe</h1>
+<p style="font-size:15px;">Okulumuz eğitim-öğretime 26 Ağustos 1996 tarihinde Çankaya İlçesi Yıldız semtinde bulunan Reha Alemdaroğlu Lisesi’nin bir katında "Yılmaz Anadolu Lisesi" adı altında başlamıştır. İki yılın ardından Milli Eğitim Bakanlığı Orta Öğretim Genel Müdürlüğü’nün 04.01.1998 tarih ve 14629 sayılı oluru ile Dr. Binnaz Ege-Dr. Rıdvan Ege Anadolu Lisesi olarak adı değiştirilmiştir. 3 Mayıs 1999 tarihinde ise Balgat semtinde mevcut konumu olan yeni binasına taşınmıştır. 28 Ekim 1993 tarihinde inşaatına bağlanan yeni binamızın kesin kabulü 5 Haziran 2000 tarihinde yapılmış, 22 Mayıs 1999 tarihinde 9. Cumhurbaşkanımız Sayın Süleyman DEMİREL'in açışı ile eğitim-öğretime başlamıştır. Okulumuz Sayın Prof. Dr. Rıdvan Ege'nin katkılarıyla yapılmıştır.     </p>
+<h4>Okul Müdürlerimiz</h4>
+<ol>
+<li>Ali Rıza OKUR (1996 - 2000)</li>
+<li>Necati YANKIN (2000 - 2009)</li>
+<li>Reşit Yardımcı (2009 - 2010)</li>
+<li>Dr. Refik Turan (2010 - 2014)</li>
+<li>Dursun YEŞİLOVA (2014 - 2019)</li>
+<li>Ümit Emre ÇİÇEK  (2019-     ) </li>
+</ol> 
+</body>
+</html> 

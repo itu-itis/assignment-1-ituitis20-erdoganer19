@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BREGEAL</title>
+<style>table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}</style>
+</head>
+<body>
+<img src="phone.png" alt="Phone" width="15" height="20">	
+<a href="tel://0(312) 287 6024">0(312) 287 60 24</a>
+<marquee behavior="alternate" bgColor="red" direction=right>YARINLARIN TEMİNATI DR. BİNNAZ EGE-DR RIDVAN EGE ANADOLU LİSESİ</marquee>
+<h2 style="color:Tomato;">Dr. Binnaz Ege-Dr. Rıdvan Ege Anadolu Lisesi</h2>
+<table>
+<tr><td>
+<div align="left"><img src="bregeal.jpg" alt="Dr. Binnaz Ege-Dr Rıdvan Ege Anadou Lisesi" width="900" height="350"></div>
+</td><td>
+<div align="right"><img src="atatürk.jpg" alt="Mustaafa Kemal Atatürk" width="250" height="350"> </div>
+</td></tr>
+</table> 
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr. Binnaz Ege-Dr. Rıdvan Ege Anadolu Lisesi fizik, kimya ve bilgisayar laboratuvarları, basketbol ve futbol sahası içeren kapalı spor salonu, konferans salonu, yemekhane ve her zaman çalışmaya açık bir kütüphaneyle yıllardır Ankara'nın en başarılı okulları arasında yer alıyor. Birinci yabancı dil olan İngilizce'nin yanında ikinci yabancı dil olarak da Almanca eğitimi verilmektedir. Okul Oğuzlar Mahallesi, Osmanlı Caddesi, 1396. Sokak, Balgat adresinde bulunmaktadır.</p>
+<ul>
+<li><a href="ZamanCizelgesi"><strong>Ders Zaman Çizelgesi</strong></a></li>
+<li><a href="Tarihçe"><strong>Tarihçe</strong></a></li>
+<li><a href="Öğretmenlerimiz"><strong>Akademik Kadro</strong></a></li>
+</ul> 
+ <form method="get" action="https://twitter.com/drbinnazridvan">
+    <button type="submit"><img src="twitter.jpeg" alt="Twitter Link" width="15" height="15"></button>
+</form>
+ <form method="get" action="https://www.linkedin.com/company/dr-binnaz-ege-dr-rıdvan-ege-anadolu-lisesi/">
+    <button type="submit"><img src="linkedin.jpeg" alt="LinkedIn Link" width="15" height="15"></button>
+</form>
+ <form method="get" action="https://www.instagram.com/drbinnazridvanegeal/">
+    <button type="submit"><img src="instagram.png" alt="Instagram Link" width="15" height="15"></button>
+</form>
+ <form method="get" action="https://tr-tr.facebook.com/pages/category/Education/Dr-Binnaz-Ege-Dr-Rıdvan-Ege-Anadolu-Lisesi-974878679287929/">
+    <button type="submit"><img src="th.jpeg" alt="Faceook Link" width="15" height="15"></button>
+</form>
+
+</body>
+</html> 
