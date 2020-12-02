@@ -1,0 +1,27 @@
+body {
+  background-color: whitesmoke;
+}
+
+h2 {
+  color: navy;
+  margin-left: 300px;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.resim{
+background:transparent;
+padding:8px;
+border:5px solid #999999;
+box-shadow:12px 12px 12px #999;
+]
