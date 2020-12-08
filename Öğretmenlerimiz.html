@@ -1,30 +1,109 @@
 <HTML>
 <head>
+	<style>
+ul {
+      list-style: none; 
+      padding:3;
+      margin:0;
+    }
+	
+    ul li {
+      display: block;
+      float: left; 
+    }
+	
+	li ul {
+      display: none;
+    }
+	
+    ul li a {
+	  display: block;
+      font-family:helvetica;
+      font-size:20px;
+      background-color:floralwhite;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      width:200px; 
+	  height:20px;
+      border: 2px solid black;
+      border-radius:7%;
+    }
+	
+    ul li a:hover {
+      background:black;
+      color:white;
+    }
+	
+    li:hover ul {
+      display: block; 
+      position: absolute; 
+    }
+	
+    li:hover li {
+      float: none; 
+    }
+	
+    li:hover a {
+      background-color:floralwhite; 
+      color:black;
+    }
+	
+    li:hover li a:hover {
+      width:100px;
+    }
+	</style>
 <title>Ögretmenler</title>
-<body bgcolor="whitesmoke">
+<link rel="stylesheet" href="mystyle.css"> 
 </head>
- <BODY>
-<h1 align="center">İDARİ KADROMUZ</h1>	 
+ <body>
+	<div class="box-area">
+	    <header>
+		
+		<img src="phone.png" alt="Phone" width="20" height="25">
+<a href="tel://0(312) 287 6024">0(312) 287 60 24</a><div style="float:right;"> 
+		    <div class="wrapper">
+			    <div class="logo">                
+				    <a href="#"><img src="symbol.svg" class="resim" alt="Dr. Rıdvan Ege Dr. Binnaz Ege Anadolu Lisesi"  width="150" height="150" align="left"></a>
+					</div>
+				<nav>
+					<ul>
+					     <li><a href="MisyonVeVizyon.html" target="_blank">About Us</a></a></li>
+						 <li><a href="Tarihçe.html" target="_blank">History</a></a></li>
+						 <li><a href="Öğretmenlerimiz.html" target="_blank">Academic Personnel</a></a></li>
+						 <li><a href="ZamanCizelgesi.html" target="_blank">Schedules</a></a></li>
+						 </ul>
+					</nav>
+			</div>
+			</header>
+		<div class="banner-area">
+	<img src="ataturk.jpg" class="resim" alt="Dr. Binnaz Ege-Dr Rıdvan Ege Anadou Lisesi"  width="400" height="300" align="center">
+			</div>
+		<div class="content-area">
+			<marquee behavior="alternate" bgColor="grey" direction="right">GUARANTEE OF THE FUTURE DR. BINNAZ EGE-DR RIDVAN EGE ANATOLIAN HIGH SCHOOL</marquee>
+			
+			    
+<h1 align="center">ADMINISTRATIVE PERSONNEL</h1>	 
   <TABLE Border = "3" width = "100%">
    <TR>
 	   
-    <TD><strong>BRANŞ</strong></TD>
-    <TD><strong>ÖĞRETMEN</strong></TD>
+    <TD><strong>BRANCH</strong></TD>
+    <TD><strong>TEACHER</strong></TD>
    </TR>
    <TR>
-    <TD>Okul Müdürü</TD>
+    <TD>School Principal</TD>
     <TD>Ümit Emre Çiçek</TD>
    </TR>
    <TR>
-    <TD>Müdür Yardımcısı</TD>
+    <TD>School Vice Principal</TD>
     <TD>Numan Araydın</TD>
    </TR>
    <TR>
-    <TD>Müdür Yardımcısı</TD>
+    <TD>School Vice Principal</TD>
     <TD>Ömer Eser</TD>
    </TR>
    
-   
+
    
 
   
@@ -34,131 +113,130 @@
 	 
 	 
 	 
-<h1 align="center">ÖĞRETMENLERİMİZ</h1>	 
+<h1 align="center">Our Teachers</h1>	 
   <TABLE Border = "3" width = "100%">
    <TR>
 	   
-    <TD><strong>BRANŞ</strong></TD>
-    <TD><strong>ÖĞRETMEN</strong></TD>
+    <TD><strong>BRANCH</strong></TD>
+    <TD><strong>TEACHER</strong></TD>
    </TR>
    <TR>
-    <TD>Türk Dili ve Edebiyatı</TD>
+    <TD>Turkish Language and Literature</TD>
     <TD>Hasan YAŞAR</TD>
    </TR>
    <TR>
-    <TD>Türk Dili ve Edebiyatı</TD>
+    <TD>Turkish Language and Literature</TD>
     <TD>Gülşah OKTAY</TD>
    </TR>
    <TR>
-    <TD>Türk Dili ve Edebiyatı</TD>
+    <TD>Turkish Language and Literature</TD>
     <TD>Fazilet Eryılmaz</TD>
    </TR>
    <TR>
-    <TD>Türk Dili ve Edebiyatı</TD>
+    <TD>Turkish Language and Literature</TD>
     <TD>Ayşe BAKIR</TD>
    </TR>
    <TR>
-    <TD>Türk Dili ve Edebiyatı</TD>
+    <TD>Turkish Language and Literature</TD>
     <TD>Emine ZEYTİNOĞLU</TD>
    </TR>
    <TR>
-    <TD>Türk Dili ve Edebiyatı</TD>
+    <TD>Turkish Language and Literature</TD>
     <TD>Mustafa YILDIRIM</TD>
    </TR>
    <TR>
-    <TD>Türk Dili ve Edebiyatı</TD>
+    <TD>Turkish Language and Literature</TD>
     <TD>Ayşe YILMAZ</TD>
    </TR>
       <TR>
-    <TD>Matematik</TD>
+    <TD>Mathematics</TD>
     <TD>Tülin DİREN</TD>
    </TR>
    <TR>
-    <TD>Matematik</TD>
+    <TD>Mathematics</TD>
     <TD>Gülay KİREMİTÇİ</TD>
    </TR>
    <TR>
-    <TD>Matematik</TD>
+    <TD>Mathematics</TD>
     <TD>Mehmet ORAKÇI</TD>
    </TR>
    <TR>
-    <TD>Matematik</TD>
+    <TD>Mathematics</TD>
     <TD>Yılmaz UÇAN</TD>
    </TR>
    <TR>
-    <TD>Matematik</TD>
+    <TD>Mathematics</TD>
     <TD>E. Lale ÖZTÜREL</TD>
    </TR>
    <TR>
-    <TD>Matematik</TD>
+    <TD>Mathematics</TD>
     <TD>Eda AKDEMİR</TD>
    </TR>
    <TR>
-    <TD>Matematik</TD>
+    <TD>Mathematics</TD>
     <TD>Zöhre Çiftçi</TD>
    </TR>
    <TR>
-    <TD>Kimya</TD>
+    <TD>Chemistry</TD>
     <TD>Leyla SETAN</TD>
    </TR>
    <TR>
-    <TD>Kimya</TD>
+    <TD>Chemistry</TD>
     <TD>Selda YILDIRIM</TD>
    </TR>
    <TR>
-    <TD>Kimya</TD>
+    <TD>Chemistry</TD>
     <TD>Sibel GÜRLEK</TD>
    </TR>
    <TR>
-    <TD>Kimya</TD>
+    <TD>Chemistry</TD>
     <TD>Nafiye DEMİR</TD>
    </TR>
    <TR>
-    <TD>Fizik</TD>
+    <TD>Physics</TD>
     <TD>Tülay OLGUN</TD>
    </TR>
    <TR>
-    <TD>Fizik</TD>
+    <TD>Physics</TD>
     <TD>Hediye ÖZER</TD>
    </TR>
    <TR>
-    <TD>Biyoloji</TD>
+    <TD>Biology</TD>
     <TD>Ferda GEMİCİ</TD>
    </TR>
    <TR>
-    <TD>Biyoloji</TD>
+    <TD>Biology</TD>
     <TD>Ayşen ARICI</TD>
    </TR>
    <TR>
-    <TD>Biyoloji</TD>
+    <TD>Biology</TD>
     <TD>Afet GÖKKAYA</TD>
    </TR>
    <TR>
-    <TD>Biyoloji</TD>
+    <TD>Biology</TD>
     <TD>Doğanay ERKAN</TD>
    </TR>
   <TR>
-    <TD>Tarih</TD>
+    <TD>History</TD>
     <TD>Demet GÖZKAYA</TD>
    </TR>
   <TR>
-    <TD>Tarih</TD>
+    <TD>History</TD>
     <TD>Gül KARAOĞLU</TD>
    </TR>
    <TR>
-    <TD>Coğrafya</TD>
+    <TD>Geography</TD>
     <TD>Süleyman AKGÜN</TD>
    </TR>
    <TR>
-    <TD>Coğrafya</TD>
+    <TD>Geography</TD>
     <TD>Sibel KARABAY</TD>
    </TR>
    
    
-
-  
   
    
   </TABLE>
+   </div>
  </BODY>
 </HTML>

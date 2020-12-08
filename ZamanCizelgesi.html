@@ -12,102 +12,179 @@ th {
 td { 
 	text-align: center;
 }
+ul {
+      list-style: none; 
+      padding:3;
+      margin:0;
+    }
+	
+    ul li {
+      display: block;
+      float: left; 
+    }
+	
+	li ul {
+      display: none;
+    }
+	
+    ul li a {
+	  display: block;
+      font-family:helvetica;
+      font-size:20px;
+      background-color:floralwhite;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      width:200px; 
+	  height:20px;
+      border: 2px solid black;
+      border-radius:7%;
+    }
+	
+    ul li a:hover {
+      background:black;
+      color:white;
+    }
+	
+    li:hover ul {
+      display: block; 
+      position: absolute; 
+    }
+	
+    li:hover li {
+      float: none; 
+    }
+	
+    li:hover a {
+      background-color:floralwhite; 
+      color:black;
+    }
+	
+    li:hover li a:hover {
+      width:100px;
+    }
 </style>
-<body bgcolor="whitesmoke">
+<link rel="stylesheet" href="mystyle.css"> 
 </head>
 <body>
-<div align="center"><h3 style="color:darkblue;">DERS ZAMAN ÇİZELGESİ</h3></div>
+	<div class="box-area">
+	    <header>
+		
+		<img src="phone.png" alt="Phone" width="20" height="25">
+<a href="tel://0(312) 287 6024">0(312) 287 60 24</a><div style="float:right;"> 
+		    <div class="wrapper">
+			    <div class="logo">                
+				    <a href="#"><img src="symbol.svg" class="resim" alt="Dr. Rıdvan Ege Dr. Binnaz Ege Anadolu Lisesi"  width="150" height="150" align="left"></a>
+					</div>
+				<nav>
+					<ul> 
+					     <li><a href="MisyonVeVizyon.html" target="_blank">About Us</a></a></li>
+						 <li><a href="Tarihçe.html" target="_blank">History</a></a></li>
+						 <li><a href="Öğretmenlerimiz.html" target="_blank">Academic Personnel</a></a></li>
+						 <li><a href="ZamanCizelgesi.html" target="_blank">Schedules</a></a></li>
+						 </ul>
+					</nav>
+			</div>
+			</header>
+			<div class="banner-area">
+	<img src="ataturk.jpg" class="resim" alt="Dr. Binnaz Ege-Dr Rıdvan Ege Anadou Lisesi"  width="400" height="300" align="center">
+			</div>
+		<div class="content-area">
+			<marquee behavior="alternate" bgColor="grey" direction="right">GUARANTEE OF THE FUTURE DR. BINNAZ EGE-DR RIDVAN EGE ANATOLIAN HIGH SCHOOL</marquee>
+			
+<h3 style="color:darkblue;">Time Tables and Schedules</h3>
  <table style="width:100%">
   <tr>
-    <th>DERSLER</th>
-    <th>BAŞLANGIÇ SAATİ</th>
-    <th>BİTİŞ SAATİ</th>
+    <th>LESSONS</th>
+    <th>START</th>
+    <th>FINISH</th>
   </tr>
   <tr>
-    <td>DERSE HAZIRLIK</td>
+    <td>Lesson Preparation Time</td>
     <td>9:00</td>
     <td>9:10</td>
   </tr>
   <tr>
-    <td>1.DERS</td>
+    <td>1.Lesson</td>
     <td>9.10</td>
     <td>9.50</td>
   </tr>
    <tr>
-    <td>TENEFFÜS</td>
+    <td>Break</td>
     <td>9.50</td>
     <td>10.00</td>
   </tr>
    <tr>
-    <td>2.DERS</td>
+    <td>2.Lesson</td>
     <td>10.00</td>
     <td>10.40</td>
   </tr>
    <tr>
-    <td>TENEFFÜS</td>
+    <td>Break</td>
     <td>10.40</td>
     <td>10.50</td>
   </tr>
   <tr>
-    <td>3.DERS</td>
+    <td>3.Lesson</td>
     <td>10.50</td>
     <td>11.30</td>
   </tr>
   <tr>
-    <td>TENEFFÜS</td>
+    <td>Break</td>
     <td>11.30</td>
     <td>11.40</td>
   </tr>
   <tr>
-    <td>4.DERS</td>
+    <td>4.Lesson</td>
     <td>11.40</td>
     <td>12.20</td>
   </tr>
   <tr>
-    <td>ÖĞLE ARASI</td>
+    <td>Lunch</td>
     <td>12.20</td>
     <td>13.05</td>
   </tr>
   <tr>
-    <td>5.DERS</td>
+    <td>5.Lesson</td>
     <td>13.05</td>
     <td>13.40</td>
   </tr>
   <tr>
-    <td>TENEFFÜS</td>
+    <td>Break</td>
     <td>13.40</td>
     <td>13.50</td>
   </tr>
   <tr>
-    <td>6.DERS</td>
+    <td>6.Lesson</td>
     <td>13.50</td>
     <td>14.30</td>
   </tr><tr>
-    <td>TENEFFÜS</td>
+    <td>Break</td>
     <td>14.30</td>
     <td>14.40</td>
   </tr><tr>
-    <td>7.DERS</td>
+    <td>7.Lesson</td>
     <td>14.40</td>
     <td>15.20</td>
   </tr><tr>
-    <td>TENEFFÜS</td>
+    <td>Break</td>
     <td>15.20</td>
     <td>15.30</td>
   </tr>
   <tr>
-    <td>8.DERS</td>
+    <td>8.Lesson</td>
     <td>15.30</td>
     <td>16.10</td>
   </tr><tr>
-    <td>TENEFFÜS</td>
+    <td>Break</td>
     <td>16.10</td>
     <td>16.20</td>
   </tr><tr>
-    <td>9.DERS</td>
+    <td>9.Lesson</td>
     <td>16.20</td>
     <td>17.00</td>
   </tr>
 </table> 
+</div>
 </body>
 </html> 
